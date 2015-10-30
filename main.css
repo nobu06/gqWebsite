@@ -15,7 +15,7 @@
 
  .jumbotron {
  	height: 500px;
- 	background-image: url(../images/japan.jpg);
+ 	background-image: url(images/japan.jpg);
  	background-repeat: no-repeat;
  	/*background-position: -200px -200px;*/
  	background-size: 750px 500px;
