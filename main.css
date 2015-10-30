@@ -1,0 +1,56 @@
+ .main a {
+ 	color: #5a5a5a;
+ 	font-size: 24;
+ 	font-weight: bold;
+ 	padding-top: 14px;
+ 	padding-bottom: 14px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	text-transform: uppercase;
+ }
+ 
+ .main li {
+ 	display: inline;
+ }
+
+ .jumbotron {
+ 	height: 500px;
+ 	background-image: url(..japan.jpg);
+ 	background-repeat: no-repeat;
+ 	/*background-position: -200px -200px;*/
+ 	background-size: 750px 500px;
+ }
+
+ .jumbotron h1 {
+ 	color: #fff;
+ 	font-size: 48px;
+ 	font-weight: bold;
+ }
+
+ .jumbotron p {
+ 	color: #fff;
+ 	font-size: 20px;
+ }
+
+ .jumbotron h1 {
+ 	font-family: 'Shift', sans-serif;
+ }
+
+ .jumbotron .container {
+ 	position: relative;
+ 	top: 100px;
+ }
+
+ .learn-more {
+ 	background-color: #f7f7f7;
+ }
+
+ .learn-more h3 {
+ 	font-family: 'Shift', sans-serif;
+ }
+
+ .learn-more a {
+ 	color: #00b0ff;
+ }
+
+ 
