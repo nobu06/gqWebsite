@@ -23,7 +23,8 @@
  	background-image: url(images/japan.jpg);
  	background-repeat: no-repeat;
  	/*background-position: -200px -200px;*/
- 	background-size: 750px 500px;
+ 	/*background-size: 750px 500px;*/
+ 	 background-size: cover;
  	padding: 23px;
  }
 
