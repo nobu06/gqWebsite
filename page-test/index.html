@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+
+  	<link rel="stylesheet" href="main.css">
+  	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+  </head>
+
+  <body>
+  	<meta charset="utf-8">
+  	<div class="main">
+  	  <div class="container">
+  	  	
+	  	<button class="btn" type="button">Click Me!!</button>
+  	  	<button class="btn2" type="button2">Click This!</button>
+
+		<h1>Japan</h1>
+		<ul>
+		<!-- <ul class ="pull-left"> -->
+      <li><a href="/index.html">Homepage</a></li>
+		  <li><a href="#">Food</a></li>
+		  <li><a href="#">Popular Destinations</a></li>
+<!-- 		</ul>
+		<ul class ="pull-right"> -->
+		  <li><a href="#">Castlesこんにちは</a></li>
+		  <li><a href="#">Transportation</a></li>
+		  <li><a href="#">Basic phrases</a></li>
+		</ul>
+	  </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Find the best places to visit</h1>
+        <p>~~~~~~~~~~~~~~~</p>
+      </div>
+    </div>
+
+    <br></br>
+
+    <div class="learn-more">
+      <div class="container"> 	
+      	<div class="row">
+
+          <div class="col-md-4">
+			<h3>Travel</h3>
+			<p>Next to the Sensō-ji temple grounds is a small amusement park called Hanayashiki, which claims to be the oldest amusement park in Japan. The neighborhood theaters specialize in showing classic Japanese films, as many of the tourists are elderly Japanese.</p>
+			<p><a href="#">Learn more about travelling</a></p>
+	 	  </div>
+
+	 	  <div class="col-md-4">
+			<h3>Host</h3>
+			<p>~~~~~</p>
+			<p><a href="#">Learn about hosting</a></p>
+		  </div>
+
+		  <div class="col-md-4">
+			<h3>Safety</h3>
+			<p>~~~~~</p>
+			<p><a href="#">Learn about safety</a></p>
+		  </div>
+
+		</div>
+	  </div>
+	</div>
+	<script src="jquery-2.1.4.min.js"></script>
+
+
+	<script>
+ 	var test = false;
+    $('.btn').click(function() {
+        if (test) {
+            $('.jumbotron').animate({
+                  width: '50%'
+            }, 4000);
+        } else {
+            $('.jumbotron').animate({
+                  width: '400%'
+            }, 4000);
+        }
+
+        test = !test;
+    });
+
+
+	$('body').keypress(function(e) {
+    	e.which == 32 // Spacebar
+    	console.log('hi there')
+	})
+
+
+	$('.btn2').click(function() {
+		$('.jumbotron').toggle();
+	})
+
+	</script>
+
+
+  </body>
+</html>
